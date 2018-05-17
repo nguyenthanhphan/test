@@ -1,0 +1,68 @@
+/*
+Theme Name: Mr. Tailor (shared on wplocker.com)
+Theme URI: http://www.getbowtied.com/
+Author: Get Bowtied
+Author URI: http://www.getbowtied.com/
+Description: Mr. Tailor is a responsive, super-mobile-friendly theme for WordPress and WooCommerce.
+Version: 1.4.5
+License:
+License URI:
+Text Domain: mr_tailor
+Domain Path: /languages/
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, fluid-layout, fixed-layout, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+*/
+
+@media (max-width: 768px) {
+    .slogan{ display: none;}
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .slogan{ display: none;}
+}
+
+.vc_grid-item-zone-c-right .vc_gitem-animated-block {
+    width: 30%;
+}
+
+.vc_grid-item-zone-c-right .vc_gitem-zone-c {
+    width: 70%;
+}
+
+.vc_gitem-post-data {
+    margin-bottom: 0;
+}
+
+.vc_gitem-post-data-source-post_date p{
+   margin-bottom: 0;
+}
+
+.vc_gitem-post-data-source-post_excerpt{
+   display:none;
+}
+
+.vc_button-2-align-left a{
+   background: none;
+   color: #F4524D !important;
+   padding: 5px !important;
+   min-width: 100px !important;
+}
+
+.pgalbumthumb{
+    width: 50%;
+    position: inherit !important;
+    left: inherit !important;
+    top: inherit !important;
+}
+
+.pgthumb{
+    width: 25%;
+    height: 150px;
+}
+
+.plus-category{
+    display:none;
+}
+
+.lichhoc th{ color:#ffff00}
+
+.wpsm-menu.menu_enhance ul, .wpsm-vertical.menu_enhance ul ul{ width:14em !important; }
